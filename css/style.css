@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+#header{
+	background:linear-gradient(to right,rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../re.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	height: 100vh;
+	border-bottom: 10px solid #5bc0de;
+
+}
+.text-box{
+	position: absolute;
+	color: white;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+
+}
+.heading-animate{
+
+	
+}
+.heading{
+	display: block;
+	font-size:60px;
+	font-weight: bold;
+	text-shadow: 0 0 10px black;
+	text-align: center;
+		animation-name: moving;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+	
+}
+.btn-animate{
+	animation-name: movingbotm;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-fill-mode: backwards;
+	width:200px;
+	font-weight: bold;
+}
+.sub-title{
+	font-size: 20px;
+	display: block;
+	font-weight: bold;
+	text-shadow: 0 0 10px black;
+	text-align: center;
+	letter-spacing: 5px;
+	border-bottom: 1px solid white;
+
+
+}
+.btn{
+	
+	text-align: center;
+	margin: auto;
+	color: white!important;
+	
+}
+
+.navbar .navbar-brand{
+	color:white;
+	font-size:30px;
+}
+.navbar .nav-item .nav-link{
+	color:white;
+	font-size:20px;
+}
+.navbar{
+
+	border-bottom: 10px solid #5bc0de;
+}
+i .fa .fa-bars{
+	color:black;
+}
+#about{
+	border-top: 10px solid white;
+	background: #bcbcbc;
+}
+#service{
+border-bottom: 10px solid #5bc0de!important;
+}
+.imgbox{
+	border:1px solid white;
+	padding: 10px;
+}
+#servicetext{
+	color: #5bc0de;
+	text-shadow: 0 0 5px black;
+}
+.fas{
+	color:#008ed6;
+	background:white;
+	border-radius: 5px;
+	padding: 5px;
+
+}
+img{
+	
+
+}
+#footer.fa-facebook{
+background:blue;
+padding:5px;
+
+
+}
+ul img{
+	width:50px;
+	display: inline-block;
+	margin-left:25px;
+	cursor: pointer;
+
+}
+@keyframes moving 
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+	
+	100%
+	{
+
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+@keyframes movingbotm
+{
+	0%
+	{
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	
+	100%
+	{
+
+		opacity: 1;
+		transform: translate(0);
+	}
+}
